@@ -1,8 +1,5 @@
-This is our readme lol, but now with an actual readme lol xD
+gAIme - Generalized board game AI
 
-Project Overview:
-Our goal was to develop a library to provide the backbone behind providing better artificial intelligence opponents to many different games that involve a player competing against a computer in a points based board game framework.
+The inspiration behind this project was learning traditional AI algorithms for board games - e.g. minimax, monte carlo, noting that they weren't very game-specific, and then implementing them in abstract. With the current implementation, one can write very little code - just about enough to define a game-state for the given board game and have a state.next_move() function that applies one of the traditional algorithms to pick a good move.
 
-Team Members: Akhil Mohan, Spencer Gilbert, Jordan Simkovic, Ashank Verma, Daniel Mackey
-
-Installation: Have python 3 and pygame installed on your computer and run the 'play___'.py files for each game
+This started as an individual project, turned into a team effort once I reached university, and now is back to its original state as an individual effort. 
